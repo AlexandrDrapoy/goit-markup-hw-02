@@ -5,27 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title>HW1</title>
-
+    <title>HW2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+<link rel="stylesheet" href="./css/style.css">
        
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="./index.html" ><span style="color: #2196F3">Web</span>Studio</a>               
-            <ul>                                        
+    <header class="header-block">
+        <a href="./index.html" class="logo"><span class="logo-web">Web</span>Studio</a>
+        <nav>                       
+            <ul class="link-nav list list-hover">                                        
                 <li>
-                    <a href="#headerBlockButton" > Студія </a>
+                    <a href="#" > Студія </a>
                 </li>
                 <li>
-                    <a href="#profilesOfTeam" > Портфоліо </a>
+                    <a href="./portfolio.html" > Портфоліо </a>
                 </li>
                 <li>
-                    <a href="#contact" > Контакти </a>
+                    <a href="" > Контакти </a>
                 </li>
             </ul>
         </nav>
-        <ul>
+        <ul class="link-nav cont list list-hover">
             <li>
                 <a href="mailto:info@devstudio.com"> info@devstudio.com </a>
             </li>
@@ -35,13 +39,13 @@
         </ul>
     </header>
     <main>
-        <section id="headerBlockButton">
-            <h1>ЕФФЕКТИВНІ РІШЕННЯ <br> ДЛЯ ВАШОГО БІЗНЕСУ</h1>
-            <button type="button">Завантажити послугу</button>
+        <section class="hero-block">
+            <h1>Еффективні рішення <br> для вашого бізнесу</h1>
+            <button class="button" type="button">Завантажити послугу</button>
         </section>
-        <section>
+        <section class="section-advantage">
             <h2>Наші переваги</h2>
-            <ul>
+            <ul class="list">
                 <li>
                     <h3>Увага до дрібниць</h3>
                     <p>Ідейні твердження, а також початок повсякденної роботи по формуванню позиції</p>
@@ -60,9 +64,9 @@
                 </li>
             </ul>
         </section>
-        <section>
-            <h2>ЧИМ МИ ЗАЙМАЄМОСЯ</h2>
-            <ul>
+        <section class="section-whot-we-do">
+            <h2 class="secondary-title" >ЧИМ МИ ЗАЙМАЄМОСЯ</h2>
+            <ul class="list">
                 <li>
                     <img src="image/work1.jpg" alt="Планшет з клавіатурою" width="370" class="imgWhatWeDo" >
                 </li>
@@ -74,9 +78,9 @@
                 </li>
             </ul>
         </section>
-        <section id="ourTeam">
-            <h2>НАША КОМАНДА</h2>
-            <ul>
+        <section class="section-ourteam">
+            <h2 class="secondary-title">НАША КОМАНДА</h2>
+            <ul class ="list">
                 <li>
                     <img src="image/team1.jpg" alt="фото Ігор Дем'яненко" width="270"> 
                     <h3>Ігор Дем'яненко</h3>
@@ -101,9 +105,9 @@
             </ul>
         </section>
     </main>
-    <footer id="contact">
-        <a href="./index.html"><span style="color: #2196F3">Web</span> Studio </a>
-        <ul>
+    <footer  class="footer-block">
+        <a href="./index.html" class="logo"><span class="logo-web">Web</span>Studio</a>
+        <ul class="address-link list list-hover">
             <li>
                 <address>м. Київ, пр-т Лесі Українки, 26</address>
             </li>
